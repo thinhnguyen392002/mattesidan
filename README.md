@@ -1,10 +1,21 @@
 # Mattesidan
 
-Målet med denna sida är att
+### Vad sidan ska göra
 
-Saker som behövs:
+Användaren ska kunna:
 
-- [Node](https://nodejs.org/en/)
+- Beräkna PQ-formeln
+- Beräkna Pythagoras sats
+- Beräkna en funktions k- och m-värde
+
+### Målet med sidan
+
+- Göra en hemsida med JavaScript som genomför olika typer av beräkningar
+- Att genomföra olika typer av test på sin kod.
+
+### Saker som behövs:
+
+[Node](https://nodejs.org/en/)
 
 Sedan när Node är installerat behöver ni installera de olika test-biblioteken:
 
