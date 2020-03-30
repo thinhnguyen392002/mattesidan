@@ -14,6 +14,13 @@ function readValue (){
     
     formel(p,q);
 }
+function readValuek (){
+    const y1=parseInt( document.getElementById("y1").value);
+    const x1=parseInt( document.getElementById("x1").value);
+    const y2=parseInt( document.getElementById("y2").value);
+    const x2=parseInt( document.getElementById("x2").value);
+    formelk (y1,x1,y2,x2);
+}
 /*
   public static void Formel (int p, int q){
     double del1 = p * -0.5;
@@ -35,4 +42,14 @@ function formel (p,q){
 
     document.getElementById("svar1").innerHTML = svar1;
     document.getElementById("svar2").innerHTML = svar2;
+}
+
+function formelk (y1,x1,y2,x2){
+    var k = (y2-y1)/ (x2-x1);
+  // y = kx + m
+  // m = y - k
+    var m = y1-(k*x1);
+
+    document.getElementById("k").innerHTML = k;
+    document.getElementById("m").innerHTML = m;
 }
